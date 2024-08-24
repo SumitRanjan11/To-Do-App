@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'popins', sans-serif;
+    box-sizing: border-box;
+
+
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#28f55f63, #00223E);
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+
+}
+
+.todo-app {
+    width: 100%;
+    margin: 100px auto 30px;
+    max-width: 700px;
+    background: #ffffff;
+    box-shadow: rgb(70, 67, 67) 2px 2px 2px 2px;
+    padding: 50px 30px 50px;
+    border-radius: 80px;
+
+}
+
+.todo-app h1 {
+    color: rgb(251, 165, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 44px;
+}
+
+
+.todo-app:hover {
+    color: coral;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-weight: 40px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 16px 30px;
+    color: #ffffff;
+    background-color: #ac3a3a;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff0808;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(2, 189, 251);
+    }
+}
+
+ul li {
+    list-style: none;
+    font-size: 28px;
+    padding: 15px 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dddddd86;
+    user-select: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+ul li:hover {
+    background-color: #c2c21d40;
+    border-radius: 30px;
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: color #bb1616;
+    ;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+.task-checkbox {
+    margin: 4px 40px 0px;
+    line-height: normal;
+    width: 20px;
+    height: 20px;
+
+}
+
+
+.completed {
+    text-decoration: line-through;
+    color: #0a0a0a;
+}
+
+.remove-btn:hover {
+    background-color: #fa4646;
+}
+
+.remove-btn {
+    background-color: #e5070777;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 20px;
+    font-size: 14px;
+    margin-left: 0px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.remove-btn:hover {
+    background-color: #fa4646;
+}
