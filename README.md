@@ -1,4 +1,4 @@
-This To-Do List application allows users to manage tasks effectively by adding, checking off, and deleting items. It provides a simple and intuitive interface with essential features for task management.
+This To-Do List application allows users to manage tasks effectively by adding, checking off, and deleting items. It provides a simple and intuitive interface with essential features for task management..
 
  
 
